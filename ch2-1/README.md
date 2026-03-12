@@ -5,6 +5,7 @@
 2. 객체 cin, cout은 어디에 선언되어 있는가? 선언된 파일을 찾아서 의미를 설명하고 캡쳐하여 첨부하라 -> 교재 75페이지 2.5절 내용을 참고할 것
     - 표준 입출력 객체로, iostream 헤더에 선언되어 있다.
     - 마이크로소프트 비주얼 C++(MSVC) : C:\Program Files (x86)\Microsoft Visual Studio\<버전>\VC\Tools\MSVC\<버전>\include\iostream
+    <img width="1061" height="717" alt="스크린샷 2026-03-12 153000" src="https://github.com/user-attachments/assets/1660310b-0f02-4760-bdc1-9ccfc4ebe779" />
 
 
 3. 프로그램을 링크할때 이름 충돌이 발생하는 경우를 설명해보라
