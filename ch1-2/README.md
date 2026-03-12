@@ -1,4 +1,4 @@
-## 실습과제 1
+## C++ 챕터 1-2 실습과제 1
 
 1. IDE란 무엇인가?
     - IDE(Integrated Development Environment, 통합 개발 환경)란 프로그램 개발에 필요한 여러 도구를 하나로 통합해 제공하는 소프트웨어이다.
