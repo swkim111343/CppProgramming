@@ -23,12 +23,18 @@ int main() {
 }</pre>
 -----------------------------------
 ## 실습과제2 실행결과
+<img width="499" height="186" alt="스크린샷 2026-03-17 191729" src="https://github.com/user-attachments/assets/6ee03bd7-17ea-44ff-ad1d-12e604c53c4d" />
 
 -----------------------------------
 ## 실습과제3 실행결과
+<img width="483" height="195" alt="스크린샷 2026-03-17 191744" src="https://github.com/user-attachments/assets/b8e19320-e20d-40f0-9432-2876b445bffe" />
 
 -----------------------------------
 ## 실습과제4 실행결과
+<img width="538" height="249" alt="스크린샷 2026-03-17 191758" src="https://github.com/user-attachments/assets/a45ed6f1-0c1c-4389-bc28-c38c58b466f7" />
 
 -----------------------------------
 ## 실습과제5 실행결과
+https://github.com/user-attachments/assets/49c5851c-3367-4355-9ea0-da0c0414479a
+
+
