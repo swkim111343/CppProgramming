@@ -23,9 +23,13 @@ A a;
 a.A();</pre>
 -------------------
 1. 실습과제 2 출력 결과
+<img width="488" height="252" alt="스크린샷 2026-03-18 164334" src="https://github.com/user-attachments/assets/69481b4e-2958-4a72-ae6e-a46fae08bf21" />
 
 -------------------
 2. 실습과제 3 출력 결과
+<img width="520" height="246" alt="스크린샷 2026-03-18 165415" src="https://github.com/user-attachments/assets/1f77763a-46da-4622-a7e1-c60e24a5529c" />
 
 -------------------
 4. 실습과제 4 출력 결과
+<img width="515" height="236" alt="스크린샷 2026-03-18 170356" src="https://github.com/user-attachments/assets/e02d789a-6580-4b61-b544-18fb438c7ca8" />
+
