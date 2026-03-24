@@ -21,13 +21,27 @@
 
 -------------------------
 ## 실습과제 2 출력결과
+<img width="533" height="307" alt="스크린샷 2026-03-24 172203" src="https://github.com/user-attachments/assets/78dfa234-69fb-4bdf-a526-f725a4d6fa96" />
 
 -------------------------
 ## 실습과제 3 출력결과
-
+<img width="490" height="308" alt="스크린샷 2026-03-24 172620" src="https://github.com/user-attachments/assets/f63b2348-b30a-4b84-b01d-aade6a7c7cbc" />
+1. 실행결과가 다른 이유는 객체의 생성 시점 차이(전역 vs 지역) 때문이다.
+    - 전역 객체인 경우 main실행 전에 객체가 먼저 생성된다.
+      (전역객체 생성 -> main 실행 -> 프로그램 종료 시 소멸)
+    - 지역 객체인 경우 main실행 중에 객체가 생성
+      (tri1생성 후 바로 출력 -> tir2생성 후 바로 출력 -> main 끝나면 소멸)
 -------------------------
 ## 실습과제 4 출력결과
+<img width="457" height="296" alt="스크린샷 2026-03-24 172806" src="https://github.com/user-attachments/assets/db23399a-939a-460d-8a7c-e9c308113920" />
 
 -------------------------
 ## 실습과제 5 출력결과
-
+<img width="445" height="314" alt="스크린샷 2026-03-24 173019" src="https://github.com/user-attachments/assets/466f4ab1-632f-4a61-8c6e-9aa7ef5acb78" />
+1. 실행결과가 다른이유 :
+```cpp
+Sphere sph1(10);
+Sphere sph2(20);
+```
+main 전에 위에서 아래 순서로 생성되고 출력은 sph1 -> sph2로 그래서 10->20순서로 부피가출력된다.
+소멸은 반대로 sph2->sph1
