@@ -20,8 +20,8 @@
 3. 객체지향형 언어의 특징인 캡슐화와 정보은닉을 설명하라.
     - 캡슐화 (Encapsulation) : 데이터 + 기능(함수)을 하나로 묶는 것
     - 정보은닉 (Information Hiding) : 외부에서 내부 데이터를 직접 못 보게 숨기는 것
-    
-# 캡슐화(데이터와 함수가 하나로 묶임)
+
+- 캡슐화(데이터와 함수가 하나로 묶임)
 <pre>class Car {
 private:
     int speed;
@@ -32,7 +32,7 @@ public:
     }
 };</pre>
 
-# 정보은닉(외부에서 speed 직접 수정 불가)
+- 정보은닉(외부에서 speed 직접 수정 불가)
 <pre>private:
     int speed;</pre>
 
