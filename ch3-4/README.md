@@ -38,12 +38,14 @@ public:
 
 -------------------------
 ## 실습과제 2 출력결과
+<img width="437" height="250" alt="스크린샷 2026-03-26 131646" src="https://github.com/user-attachments/assets/8855f1e2-6ce5-4e1a-be7d-39ab713b2aa9" />
 
 -------------------------
 ## 실습과제 3 출력결과
+<img width="484" height="317" alt="스크린샷 2026-03-26 132754" src="https://github.com/user-attachments/assets/fa8d5f0d-8a02-4dc4-aaac-4f2c8ae23bbf" />
 
 -------------------------
 ## 실습과제 4 출력결과
-
+<img width="616" height="354" alt="스크린샷 2026-03-26 132929" src="https://github.com/user-attachments/assets/ca9f37d9-96fd-4a82-b84e-2b6d8f757105" />
 
 
