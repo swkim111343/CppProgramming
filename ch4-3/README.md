@@ -41,7 +41,8 @@ delete[] pArray;</pre>
 
 -------------------------
 ## 실습과제 4 출력결과
+<img width="348" height="272" alt="스크린샷 2026-04-08 213413" src="https://github.com/user-attachments/assets/cabe7ba4-5400-4c86-9b38-03329ccf82f0" />
 
 -------------------------
 ## 실습과제 5 출력결과
-
+<img width="359" height="206" alt="스크린샷 2026-04-08 213604" src="https://github.com/user-attachments/assets/4141746d-359f-415d-8610-a22f78d54fab" />
