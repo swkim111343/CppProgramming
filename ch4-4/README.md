@@ -1,4 +1,4 @@
-## C++ 챕터 4-4 실습과제 1
+<img width="576" height="156" alt="스크린샷 2026-04-13 183707" src="https://github.com/user-attachments/assets/73df6a6a-7196-4ca4-898d-1ce2ae56ef43" />## C++ 챕터 4-4 실습과제 1
 1. string 객체는 문자열 입력 받을 때 몇 자를 입력할지 물어 보지않고 알아서 크기를 자동 조절한다. 동작 원리를 검색해보고 설명하라 -> 앞으로, C++에서는 char배열을 사용하지 말고 string 클래스를 사용할 것
     - 처음에 적당한크기의 메모리를 힙에 할당하고 문자열을 입력받다가 공간이 부족해지면더 큰 메모리를 새로 할당한다. 
     - 이후 기존 데이터를 복사하고 이전 메모리는 해제한다.
@@ -17,10 +17,26 @@
     - 이후 구분문자 만나면 읽기는 하지만 문자열에는 저장 X
 
 -------------------------
-## 교재 2번문제 출력결과 
+## 실습과제 2 출력결과
+<img width="465" height="228" alt="스크린샷 2026-04-13 182655" src="https://github.com/user-attachments/assets/b780addd-a890-4f49-8fe7-0afb35657d8d" />
+
 -------------------------
-## 교재 4번문제 출력결과 
+## 실습과제 3 출력결 
+<img width="543" height="180" alt="스크린샷 2026-04-13 183154" src="https://github.com/user-attachments/assets/2a267738-8385-45e8-8392-9bb14d99c7de" />
+
 -------------------------
-## 교재 5번문제 출력결과 
+## 실습문제4 교재 2번문제 출력결과 
+<img width="576" height="156" alt="스크린샷 2026-04-13 183707" src="https://github.com/user-attachments/assets/d33fc3f9-4860-4ba2-8a1a-8feda1e5be8a" />
+
 -------------------------
-## 교재 8번문제 출력결과 
+## 실습문제4 교재 4번문제 출력결과 
+<img width="606" height="105" alt="스크린샷 2026-04-13 183959" src="https://github.com/user-attachments/assets/2e8ced77-d01d-4f5f-8e76-5bc92965bc90" />
+
+-------------------------
+## 실습문제4 교재 5번문제 출력결과 
+<img width="450" height="152" alt="스크린샷 2026-04-13 184636" src="https://github.com/user-attachments/assets/13990048-faa8-4cb7-9278-3370d7e33cc3" />
+
+-------------------------
+## 실습문제4 교재 8번문제 출력결과 
+<img width="666" height="191" alt="스크린샷 2026-04-13 185245" src="https://github.com/user-attachments/assets/1185d0ab-ebf5-442d-899e-51fd6a41c6b7" />
+
