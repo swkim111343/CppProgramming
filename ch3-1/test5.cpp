@@ -6,48 +6,33 @@
 // 소스코드 작성
 #include <iostream>
 using namespace std;
-
-class Rectangle { 
+class Rectangle { // Rectangle 클래스 선언부
 public:
-    int x, y;
-    int width;  
-    int height;
-    int getArea();          
-    int getPerimeter();   
-    void getBottomRight();  
-    void input();   //입력 함수를 추가
+	int width;
+	int height;
+	int getArea(); // 면적을 계산하여 리턴하는 함수
+	int x, y;
+	int getW();
+
 };
-//입력함수
-void Rectangle::input() {
-    cout << "사각형의 좌측상단좌표(x,y) : ";
-    cin >> x >> y;
-
-    cout << "사각형의 폭과 높이(width,height) : ";
-    cin >> width >> height;
+int Rectangle::getArea() { // Rectangle 클래스 구현부
+	return width * height;
 }
-
-int Rectangle::getArea() {
-    return width * height;
-}
-
-int Rectangle::getPerimeter() {
-    return 2 * (width + height);
-}
-
-void Rectangle::getBottomRight() {
-    int rightX = x + width;
-    int rightY = y - height;
-    cout << "(" << rightX << ", " << rightY << ")";
+int Rectangle::getW() {
+	return 2 * (width + height);
 }
 
 int main() {
-    Rectangle rect;
+	Rectangle rect;
+	
+	cout << "사각형의 좌측상단좌표(x,y): ";
+	cin >> rect.x >> rect.y;
+	cout << "사각형의 폭과 높이(width,height): ";
+	cin >> rect.width >> rect.height;
 
-    rect.input(); //여기서 키보드 입력으로 변경
+	cout << "사각형의 면적은 " << rect.getArea() << endl;
+	cout << "사각형 둘레 길이는" << rect.getW() << endl;
+	cout << "사각형 우측하단의 좌표는(" << rect.x+rect.width << "," << rect.y-rect.height << ")";
 
-    cout << "사각형의 면적은 " << rect.getArea() << endl;
-    cout << "사각형의 둘레길이는 " << rect.getPerimeter() << endl;
-    cout << "사각형의 우측하단의 좌표는 ";
-    rect.getBottomRight();
-    cout << endl;
+	return 0;
 }
