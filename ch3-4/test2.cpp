@@ -4,34 +4,32 @@
 // 작성자 : 2001485 김선우
 // **********************************************
 // 소스코드 작성
-#include <iostream>
-using namespace std;
-
 class Circle {
-private:    //public변수를 -> private로 변경
-    int radius;
+private:
+    int radius;    //멤버변수 private으로 설정    (함수로 접근한다)
 
 public:
     Circle();
-    void setRadius(int r);  //setter함수 선언  
-    int getRadius();    // getter함수 선언
+    void setRadius(int r);    //setter사용
+    int getRadius();
 };
 
 Circle::Circle() {
     radius = 1;
 }
 
-void Circle::setRadius(int r) { //값 설정함수 추가
-    radius = r;
+void Circle::setRadius(int r) {
+    if (r > 0) radius = r;
 }
 
-int Circle::getRadius() {   //값 반환 함수 추가
+int Circle::getRadius() {
     return radius;
 }
 
-int main() {
+int main(){   
     Circle waffle;
-    waffle.setRadius(5);    //setter사용
-    cout << "원의 반지름은 " << waffle.getRadius() << endl;   //직접 접근 getter사용
+    waffle.setRadius(5);
+    cout << "원의 반지름은 " << waffle.getRadius() << endl;
+
     return 0;
 }
