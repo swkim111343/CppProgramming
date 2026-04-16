@@ -9,11 +9,11 @@ using namespace std;
 
 class Triangle {
 private:
-	int width, height;
+	int width, height;	//멤버함수 private
 public:
-	Triangle();
-	~Triangle();
-	Triangle(int a, int b);
+	Triangle();	//생성자
+	~Triangle();//소멸자
+	Triangle(int a, int b);//매개변수 가진 생성자
 
 	void setWidth(int w);
 	void setHeight(int h);
@@ -24,26 +24,26 @@ public:
 };
 
 Triangle::Triangle():Triangle(1,1){}
-Triangle::Triangle(int a, int b) :width(a), height(b) {
+Triangle::Triangle(int a, int b) :width(a), height(b) {	//멤버초기화리스트 형식
 	cout << "폭" << a << ", 높이" << b << "삼각형 생성 " << endl;
 }
 Triangle::~Triangle() {
 	cout << "폭" << width << ", 높이" << height << "삼각형 소멸" << endl;
 }
 
-void Triangle::setWidth(int w) {
+void Triangle::setWidth(int w) {	//setter
 	width = w;
 }
 
-void Triangle::setHeight(int h) {
+void Triangle::setHeight(int h) {	//setter
 	height = h;
 }
 
-int Triangle::getHeight() {
+int Triangle::getHeight() {	//getter
 	return height;
 }
 
-int Triangle::getWidth() {
+int Triangle::getWidth() {	//getter
 	return width;
 }
 
