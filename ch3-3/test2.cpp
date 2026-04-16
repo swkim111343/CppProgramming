@@ -4,46 +4,38 @@
 // 작성자 : 2001485 김선우
 // **********************************************
 // 소스코드 작성
-#include <iostream>
+#include<iostream>
 using namespace std;
 
 class Triangle {
 private:
-    int base;
-    int height;
-
+	int width, height;
 public:
-    // 기본 생성자
-    Triangle() {
-        base = 1;
-        height = 1;
-        cout << "밑변 " << base << "높이 " << height << "인 삼각형 생성" << endl;
-    }
+	Triangle();
+	~Triangle();
+	Triangle(int a, int b);
 
-    // 매개변수 생성자
-    Triangle(int b, int h) {
-        base = b;
-        height = h;
-        cout << "밑변 " << base << "높이 " << height << "인 삼각형 생성" << endl;
-    }
-
-    // 면적 계산 함수
-    double getArea() {
-        return base * height / 2.0;
-    }
-
-    // 소멸자
-    ~Triangle() {
-        cout << "밑변 " << base << "높이 " << height << "인 삼각형 소멸" << endl;
-    }
+	double getArea();
 };
 
-// 클래스 정의
-int main() {
-    Triangle tri1; //밑변,높이 1로 초기화
-    cout << "삼각형의 면적은" << tri1.getArea() << endl;
+Triangle::Triangle():Triangle(1,1){}    //생성자
+Triangle::Triangle(int a, int b) :width(a), height(b){    //멈버초기화 리스트방식
+	cout << "밑변" << a << "높이" << b << "인 삼각형 생성" << endl;
+}
+Triangle::~Triangle(){    //소멸자 
+	cout << "밑변" << width << "높이" << height << "인 삼각형 소멸" << endl;
+}
 
-    Triangle tri2(2, 4); //밑변=2,높이=4로 초기화
-    cout << "삼각형의 면적은" << tri2.getArea() << endl;
-        return 0;
+double Triangle::getArea() {
+	return (1.0 / 2.0) * width * height;
+}
+
+int main() {
+	Triangle tri1;    //지금은 tri1,tri2가 main함수안의지역함수로 되어있음
+	cout << "삼각형의 면적은" << tri1.getArea() << endl;
+
+	Triangle tri2(2, 4);
+	cout << "삼각형의 면적은" << tri2.getArea() << endl;
+
+	return 0;
 }
