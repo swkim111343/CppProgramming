@@ -33,4 +33,6 @@
 <img width="316" height="137" alt="스크린샷 2026-03-30 184051" src="https://github.com/user-attachments/assets/3ee561de-7773-418f-8166-17cad11dd931" />
 
 --------------------------------
-## 실습과제 3 출력결과
+## 교재 148페이지 1번문제 출력결과
+<img width="180" height="75" alt="스크린샷 2026-04-16 221202" src="https://github.com/user-attachments/assets/c1ce2640-e5a6-4e46-8e72-58de8b26b5a3" />
+
