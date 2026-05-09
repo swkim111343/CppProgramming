@@ -28,7 +28,7 @@ void swap(int *a, int *b) {
     *b = temp;
 }
 </pre>
-
+<br>
 2. 참조에 의한 호출의 장점은 무엇인가?
     - 원본 데이터 수정 가능
     - 복사 비용 감소
@@ -36,10 +36,13 @@ void swap(int *a, int *b) {
 
 -------------------------
 ## 실습과제 2 출력결과
+<img width="311" height="105" alt="스크린샷 2026-05-09 132223" src="https://github.com/user-attachments/assets/d83afff1-d662-4225-8dc5-5596e17cb49b" />
 
 -------------------------
 ## 실습과제 3 출력결과
+<img width="400" height="149" alt="스크린샷 2026-05-09 132328" src="https://github.com/user-attachments/assets/e8f8b203-ec3d-4fbb-bc5d-f76e753a05a1" />
 
 -------------------------
 ## 실습과제 4 출력결과
+<img width="405" height="129" alt="스크린샷 2026-05-09 132449" src="https://github.com/user-attachments/assets/84df8159-887f-48a9-8dd2-7f5eec801508" />
 
