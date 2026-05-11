@@ -47,3 +47,15 @@ int main()
     return 0;
 }
 </pre>
+
+------------------------
+##실습과제2 출력결과
+<img width="365" height="119" alt="스크린샷 2026-05-11 205427" src="https://github.com/user-attachments/assets/3775d9c1-fefb-4571-aa48-f432370e1eb4" />
+
+------------------------
+##실습과제3 출력결과
+<img width="393" height="117" alt="스크린샷 2026-05-11 205503" src="https://github.com/user-attachments/assets/376f02d6-b28f-4559-8f97-3171772085cc" />
+
+------------------------
+##실습과제4 출력결과
+<img width="387" height="76" alt="스크린샷 2026-05-11 205605" src="https://github.com/user-attachments/assets/5a5915e3-afe2-406c-babf-11346b39b377" />
