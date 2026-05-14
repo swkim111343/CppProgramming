@@ -1,4 +1,4 @@
-<img width="498" height="206" alt="스크린샷 2026-05-14 221447" src="https://github.com/user-attachments/assets/99267559-ce1d-4010-aa12-17dc1fb8f3f7" />## C++ 챕터 5-4
+## C++ 챕터 5-4
 ## 실습과제1
 1. 일반생성자와 복사생성자의 차이는?
     - 일반 생성자 (constructor) : 객체를 처음 생성할 때 초기화하는 함수, 보통 매개변수를 받아서 멤버 변수 초기화
