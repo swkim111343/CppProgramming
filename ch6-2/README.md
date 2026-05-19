@@ -5,9 +5,11 @@
 
 -------------
 ## 실습과제2 실행 결과
+<img width="344" height="125" alt="스크린샷 2026-05-19 184937" src="https://github.com/user-attachments/assets/087e34ae-33e3-4cc7-9b0a-eafe05ad481c" />
 
 
 -------------
 ## 실습과제3 실행 결과
+<img width="336" height="152" alt="스크린샷 2026-05-19 185046" src="https://github.com/user-attachments/assets/013d8af5-ecfd-4c39-9a55-2f3016c21cf0" />
 
 
