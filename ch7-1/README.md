@@ -14,11 +14,9 @@
 
 -----------
 ## 실습과제2 실행결과
+<img width="326" height="147" alt="스크린샷 2026-05-27 093759" src="https://github.com/user-attachments/assets/cbd020fb-3f82-4625-9371-91595e786e15" />
 
 
 -----------
 ## 실습과제3 실행결과
-
-
------------
-## 실습과제4 실행결과
+<img width="326" height="147" alt="스크린샷 2026-05-27 093759" src="https://github.com/user-attachments/assets/21bafa16-92f8-45be-bf5c-06e7e91140ac" />
